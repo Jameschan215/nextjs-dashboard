@@ -1,5 +1,8 @@
 import SideNav from '../ui/dashboard/sidenav';
 
+// Enable Partial Pre-rendering, i.e. PPR
+export const experimental_ppr = true;
+
 export default function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<div className="flex flex-col h-screen md:flex-row md:overflow-hidden">
